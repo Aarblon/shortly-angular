@@ -1,3 +1,7 @@
-<div id='container'>
+<div id='links'> <!-- we already have LinksController loaded by default -->
   <!-- Your html here -->
+  <h1>links</h1>
+  <ul>
+    <li ng-repeat='link in data'> {{ link.title }} </li>
+  </ul>
 </div>
